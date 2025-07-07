@@ -1,16 +1,44 @@
-# IPTV Player - Estilo YouCine
+# 📺 IPTV Player - Aplicativo Android Profissional
 
-Este é um aplicativo Android de streaming IPTV com interface moderna inspirada no YouCine.
+## 🎯 Visão Geral
 
-## Funcionalidades
+Aplicativo Android completo para streaming IPTV com interface moderna inspirada no YouCine. Inclui todas as funcionalidades avançadas necessárias para uma experiência profissional de IPTV.
 
-- ✅ Tela de login personalizada
-- ✅ Menu inferior com navegação (Home, TV, Filmes, Séries, Perfil)
-- ✅ Banner/carrossel de destaques na Home
-- ✅ Cards horizontais de conteúdo (Destaques, Lançamentos, Populares)
-- ✅ Player de vídeo com ExoPlayer
-- ✅ Interface escura e moderna
-- ✅ Suporte a streams HLS (.m3u8)
+## ✨ Funcionalidades Implementadas
+
+### 🔥 Funcionalidades Básicas
+- ✅ **Interface YouCine** - Design moderno e intuitivo
+- ✅ **Player ExoPlayer** - Reprodução de alta qualidade
+- ✅ **Navigation Drawer** - Menu lateral deslizante
+- ✅ **Bottom Navigation** - Navegação inferior
+- ✅ **Carrosséis Animados** - Banners em destaque
+- ✅ **Cards de Conteúdo** - Destaques, Lançamentos, Populares
+- ✅ **Material Design 3** - Interface consistente
+- ✅ **Splash Screen** - Tela de carregamento animada
+
+### 🚀 Funcionalidades Avançadas (NOVAS!)
+- ✅ **Integração API IPTV** - Suporte completo M3U/M3U8
+- ✅ **Parser M3U Avançado** - Análise completa de playlists
+- ✅ **Sistema de Favoritos** - Canais favoritos com banco de dados
+- ✅ **Histórico de Reprodução** - Última posição e duração
+- ✅ **Busca Global** - Pesquisa instantânea em todos os canais
+- ✅ **EPG (Guia de Programação)** - Programação completa XML
+- ✅ **Múltiplos Servidores** - Gerenciamento de vários provedores
+- ✅ **Proteção/Camuflagem** - Segurança avançada do app
+
+### 🛡️ Recursos de Segurança
+- 🔒 **Proteção por PIN** - Bloqueio do aplicativo
+- 🥷 **Modo Stealth** - Camuflagem da interface
+- 💥 **Fake Crash** - Proteção contra detecção
+- 🚫 **Filtro de Conteúdo** - Bloqueio de conteúdo adulto
+- 🔍 **Verificação de Segurança** - Detecção de root/debug
+- 🆘 **Limpeza de Emergência** - Remoção completa de dados
+
+### 📊 Gerenciamento de Dados
+- 💾 **Banco de Dados Room** - Armazenamento local eficiente
+- 🔄 **Sincronização Automática** - Atualização de canais
+- 📱 **Cache Inteligente** - Otimização de performance
+- 🧹 **Limpeza Automática** - Remoção de dados antigos
 
 ## Como testar o app
 
