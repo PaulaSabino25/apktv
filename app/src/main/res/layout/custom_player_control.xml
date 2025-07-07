@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/semi_transparent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingHorizontal="4dp">
+
+    <ImageButton
+        android:id="@id/exo_prev"
+        style="@style/ExoStyledControls.Button.Center.Previous"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:id="@id/exo_rew"
+        style="@style/ExoStyledControls.Button.Center.Rewind"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:id="@id/exo_play_pause"
+        style="@style/ExoStyledControls.Button.Center.PlayPause"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginHorizontal="8dp" />
+
+    <ImageButton
+        android:id="@id/exo_ffwd"
+        style="@style/ExoStyledControls.Button.Center.FastForward"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp" />
+
+    <ImageButton
+        android:id="@id/exo_next"
+        style="@style/ExoStyledControls.Button.Center.Next"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@id/exo_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:includeFontPadding="false"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <com.google.android.exoplayer2.ui.DefaultTimeBar
+        android:id="@id/exo_progress"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_weight="1"
+        app:played_color="@color/primary"
+        app:scrubber_color="@color/primary"
+        app:unplayed_color="@color/gray_dark" />
+
+    <TextView
+        android:id="@id/exo_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:includeFontPadding="false"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">IPTV Player</string>
+    <string name="login_title">Acesso ao Sistema</string>
+    <string name="username_hint">Usuário</string>
+    <string name="password_hint">Senha</string>
+    <string name="server_hint">Servidor</string>
+    <string name="login_button">Entrar</string>
+    <string name="loading">Carregando...</string>
+    <string name="error_login">Erro no login. Verifique suas credenciais.</string>
+    <string name="error_network">Erro de conexão. Verifique sua internet.</string>
+    <string name="channels">Canais</string>
+    <string name="movies">Filmes</string>
+    <string name="series">Séries</string>
+    <string name="live_tv">TV ao Vivo</string>
+    <string name="search">Buscar</string>
+    <string name="settings">Configurações</string>
+    <string name="logout">Sair</string>
+    <string name="no_channels">Nenhum canal disponível</string>
+    <string name="playing">Reproduzindo</string>
+    <string name="error_playing">Erro ao reproduzir o conteúdo</string>
+    <string name="retry">Tentar novamente</string>
+</resources>

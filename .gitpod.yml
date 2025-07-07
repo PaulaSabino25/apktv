@@ -1,0 +1,22 @@
+image: gitpod/workspace-android
+
+tasks:
+  - name: Setup Android Project
+    init: |
+      echo "🚀 Configurando projeto Android IPTV..."
+      chmod +x gradlew
+      echo "✅ Projeto pronto para compilar!"
+    command: |
+      echo "Para compilar o APK, execute:"
+      echo "./gradlew assembleDebug"
+      echo ""
+      echo "O APK será gerado em: app/build/outputs/apk/debug/app-debug.apk"
+
+ports:
+  - port: 8080
+    onOpen: ignore
+
+vscode:
+  extensions:
+    - ms-vscode.vscode-json
+    - vscjava.vscode-java-pack
