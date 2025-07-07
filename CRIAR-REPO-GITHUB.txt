@@ -1,0 +1,31 @@
+🚀 CRIAÇÃO DO REPOSITÓRIO GITHUB
+
+1. Acesse: https://github.com/new
+
+2. Preencha:
+   - Repository name: apktv
+   - Description: Android IPTV Player - YouCine Style
+   - Público ✅ (para usar Gitpod grátis)
+   - Initialize this repository with: NENHUM ❌
+
+3. Clique "Create repository"
+
+4. IMPORTANTE: NÃO adicione README, .gitignore ou license
+   (o projeto já tem tudo)
+
+5. Após criar, me avise que eu faço o upload automático!
+
+=====================================
+
+LINKS DIRETOS:
+📁 Criar repo: https://github.com/new
+👤 Seu GitHub: https://github.com/PaulaSabino25
+
+=====================================
+
+PROJETO PRONTO PARA UPLOAD:
+✅ App Android completo
+✅ Interface YouCine style  
+✅ Player IPTV funcional
+✅ Commits organizados
+✅ Documentação completa
